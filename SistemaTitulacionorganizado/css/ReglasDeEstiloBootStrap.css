@@ -1,0 +1,161 @@
+.jumbotron{
+		background-image: url("/SistemaTitulacion/img/titulacion.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 300px;
+}
+#nav{
+			background-color:white;
+			float: left;	
+			width: 100%;
+			border: 1px solid black;
+		}
+.jumbotron h1{
+	color:white;
+	float:right;
+	margin-top:190px;
+	margin-right: 330px;
+	background-color: black;
+	font-size: 35px;
+	font-weight: bold;
+}
+.textofooter{
+background-color: black;
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.tablaheader{
+	background-color:black;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+}
+/************************************/
+/*Barra de menú configuraciones*/
+#power-bi-reports ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*************************************/
+/*Prefijos col*/
+@media (max-width: 575px){
+	.columna{
+	background-color: red;
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: center;
+}
+	.jumbotron h1{
+	color:white;
+	float:right;
+	margin-top:120px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.textofooter{
+background-color: black;
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+}
+/*Prefijos col-sm*/
+@media (min-width: 576px) and (max-width: 767px){
+	.columna{
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+		}
+	.jumbotron h1{
+	color:white;
+	float:right;
+	margin-top:120px;
+	font-size: 15px;
+	font-weight: bold;
+		}
+	.textofooter{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+}
+/*Prefijos col-md*/
+@media (min-width: 768px)and(max-width: 991px){
+
+}
+/*Prefijos col-lg*/
+@media (min-width: 992px)and(max-width: 1024px){
+
+}
+/*Prefijos col*/
+@media (min-width: 1025px){
+
+}
